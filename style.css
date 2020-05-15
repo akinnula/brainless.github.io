@@ -1,0 +1,109 @@
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+body {
+    background-image: url("tausta.jpg");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+}
+
+.logo {
+	float: left;
+	padding: 8px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.button {
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+ }   
+.center {
+	text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.vertical-menu {
+    float: left;
+    color: black;
+    display: block;
+}
+.kuvienotsikko {
+	padding-left: 56px;
+}
+hr{
+  clear: both;
+}
+.row {
+	margin-bottom: 0px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.full-width {
+	width: 100%;
+}
+.responsive {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+.marginaali {
+ padding-bottom: 60px;
+}
+p {
+	background-color: white;
+}
+
+h2 {
+    background-color: white;
+	padding-left: 56px;
+}
+h6 {
+    background-size: 10px 25px;
+    background-color: white;
+	padding-left: 50px;
+}
+h3 {
+    background-color: white;
+}
+footer {
+	padding: 8px;
+    color: lightgray;
+}
+@media screen and (max-width: 800px) { 
+    body {
+        background-image: url("tausta2.jpg");
+        background-color: black;
+     }   
+    }
